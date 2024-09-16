@@ -1,6 +1,10 @@
 #include <stdio.h>
+#include <iostream>
 
-int main(){
-	printf("Hello, World! A native C++ program compiled on the command line .\n");
-	return 0;
+void hello_world() {
+	std::cout << "Hello World!\n";
+}
+
+int main() {
+	hello_world();
 }
