@@ -37,3 +37,7 @@ jobs:
        GITHUB_TOKEN: ${{ secrets.TOKEN }}
      with:
        branch: main
+  format:
+   uses: Geode-solutions/actions/.github/workflows/format.yml@master
+   secrets: 
+     TOKEN: ${{ secrets.TOKEN }}
